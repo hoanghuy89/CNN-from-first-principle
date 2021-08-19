@@ -16,7 +16,7 @@ The list of layers and activation that were implemented from scratch in this rep
 - Linear
 - Softmax
 - Adam optimization (https://arxiv.org/abs/1412.6980)
-- Cross entropy loss
+- Cross entropy loss/mean square error
 
 MNIST and CIFAR10 for evaluation.
 
