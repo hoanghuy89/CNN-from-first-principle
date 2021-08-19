@@ -10,19 +10,13 @@ The list of layers and activation that were implemented in this repo:
 
 2D Convolution (http://lushuangning.oss-cn-beijing.aliyuncs.com/CNN%E5%AD%A6%E4%B9%A0%E7%B3%BB%E5%88%97/Gradient-Based_Learning_Applied_to_Document_Recognition.pdf)
 
-Pooling (max and average) 
-
-Batch normalization (https://arxiv.org/abs/1502.03167)
-
-RELU-Rectified Linear Unit (https://www.cs.toronto.edu/~fritz/absps/reluICML.pdf) 
-
-Linear
-
-Softmax
-
-Adam optimization (https://arxiv.org/abs/1412.6980)
-
-Cross entropy loss
+- Pooling (max and average) 
+- Batch normalization (https://arxiv.org/abs/1502.03167)
+- RELU-Rectified Linear Unit (https://www.cs.toronto.edu/~fritz/absps/reluICML.pdf) 
+- Linear
+- Softmax
+- Adam optimization (https://arxiv.org/abs/1412.6980)
+- Cross entropy loss
 
 MNIST and CIFAR10 for evaluation.
 
