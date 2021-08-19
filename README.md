@@ -30,19 +30,19 @@ class CNN:
         in_size = in_shape[0]
         in_chn = in_shape[-1]
 
-        conv1_channel = 12
-        self.convo1 = Conv2D(in_chn=in_chn, out_chn=conv1_channel, kernel_size=3, in_shape=in_shape, padding=1, stride=2, bias=False)
+        
+        self.convo1 = Conv2D(in_chn=in_chn, out_chn=12, kernel_size=3, in_shape=in_shape, padding=1, stride=2, bias=False)
 
         c1 = (in_size-3 + 2*1)//2 + 1
-        output_shape = (c1,c1,conv1_channel)
+        output_shape = (c1,c1,12)
 
         self.batchnorm1 = BatchNorm(output_shape)
 
-        conv2_channel = 2*conv1_channel
-        self.convo2 = Conv2D(in_chn=conv1_channel, out_chn=conv2_channel, kernel_size=3, in_shape=output_shape, padding=1, stride=2, bias=False)
+        
+        self.convo2 = Conv2D(in_chn=12, out_chn=24, kernel_size=3, in_shape=output_shape, padding=1, stride=2, bias=False)
 
         c2 = (c1-3 + 2*1)//2 + 1
-        output_shape = (c2,c2,conv2_channel)
+        output_shape = (c2,c2,24)
 
         self.batchnorm2 = BatchNorm(output_shape)
 
