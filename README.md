@@ -18,7 +18,7 @@ The list of layers and activation that were implemented from scratch in this rep
 - Adam optimization (https://arxiv.org/abs/1412.6980)
 - Cross entropy loss and Mean square error
 
-MNIST and CIFAR10 for evaluation.
+MNIST and CIFAR10 datsets are used for evaluation.
 
 The network declaration and using is similar to that of pytorch. 
 ```python
