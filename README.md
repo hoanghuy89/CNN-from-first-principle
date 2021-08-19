@@ -7,7 +7,7 @@ Collab link: https://colab.research.google.com/github/hoanghuy89/CNN-from-first-
 
 The purpose of this notebook is to encourage understanding of deep learning, everything under the hood that enable these stuffs to work (which is not scary at all) and the frameworks that implement them. A little bit of programming skill and linnear algebra is sufficient to work your way from bottom up to implement convolution neural networks. I also include a graident check function that helps validate back-probagation implement.
 
-The list of layers and activation that were implemented in this repo:
+The list of layers and activation that were implemented from scratch in this repo:
 
 - Convolution net for image (http://yann.lecun.com/exdb/publis/pdf/lecun-98.pdf)
 - Pooling (max and average) 
