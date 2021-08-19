@@ -33,16 +33,16 @@ class CNN:
         
         self.convo1 = Conv2D(in_chn=in_chn, out_chn=12, kernel_size=3, in_shape=in_shape, padding=1, stride=2, bias=False)
 
-        c1 = (in_size-3 + 2*1)//2 + 1
-        output_shape = (c1,c1,12)
+        w_x = h_x = (in_size-3 + 2*1)//2 + 1
+        output_shape = (w_x,h_x,12)
 
         self.batchnorm1 = BatchNorm(output_shape)
 
         
         self.convo2 = Conv2D(in_chn=12, out_chn=24, kernel_size=3, in_shape=output_shape, padding=1, stride=2, bias=False)
 
-        c2 = (c1-3 + 2*1)//2 + 1
-        output_shape = (c2,c2,24)
+        w_x = h_x = (w_x-3 + 2*1)//2 + 1
+        output_shape = (w_x,h_x,24)
 
         self.batchnorm2 = BatchNorm(output_shape)
 
