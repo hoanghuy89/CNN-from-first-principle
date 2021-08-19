@@ -3,6 +3,7 @@ This notebook implement a mini deep learning frame-work in the style of pytorch.
 
 <img src="yes-no.png" style="width:600px;height:300px;">
 
+Collab link: https://colab.research.google.com/github/hoanghuy89/CNN-from-first-principle/blob/main/CNN-from-first-principle.ipynb
 
 The purpose of this notebook is to encourage understanding of deep learning, everything under the hood how these stuffs works (which is not scary at all) and the frameworks that implement them. A little bit of programming skill and linnear algebra is sufficient to work your way from bottom up to implement convolution neural networks. I also include a graident check function that helps validate back-probagation implement.
 
