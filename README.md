@@ -3,7 +3,23 @@ This notebook implement a mini deep learning frame-work in the style of pytorch.
 
 <img src="yes-no.png" style="width:600px;height:300px;">
 
-The network declaration is similar to pytorch. 
+
+The purpose of this notebook is to encourage understanding of deep learning, everything under the hood how these stuffs works (which is not scary at all) and the frameworks that implement them. A little bit of programming skill and linnear algebra is sufficient to work your way from bottom up to implement convolution neural networks. I also include a graident check function that helps validate back-probagation implement.
+
+The list of layers and activation that were implemented in this repo:
+
+2D Convolution (http://lushuangning.oss-cn-beijing.aliyuncs.com/CNN%E5%AD%A6%E4%B9%A0%E7%B3%BB%E5%88%97/Gradient-Based_Learning_Applied_to_Document_Recognition.pdf)
+Pooling (max and average) 
+Batch normalization (https://arxiv.org/abs/1502.03167)
+RELU-Rectified Linear Unit (https://www.cs.toronto.edu/~fritz/absps/reluICML.pdf) 
+Linear
+Softmax
+Adam optimization (https://arxiv.org/abs/1412.6980)
+Cross entropy loss
+
+MNIST and CIFAR10 for evaluation.
+
+The network declaration and using is similar to that of pytorch. 
 ```python
 class CNN:
     """
