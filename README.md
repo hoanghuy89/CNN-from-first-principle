@@ -1,7 +1,7 @@
 # Convolution neuron network from scratch
 This notebook implement a mini deep learning frame-work in the style of pytorch. Everything here from RELU, Batch Norm, Softmax, ...  are implemented from scratch. 
 
-<img src="yes-no.png" style="width:600px;height:300px;">
+<img src="images/yes-no.png" style="width:600px;height:300px;">
 
 Collab link: https://colab.research.google.com/github/hoanghuy89/CNN-from-first-principle/blob/main/CNN-from-first-principle.ipynb
 
