@@ -1,4 +1,4 @@
-# Convolution neuron network from scratch usinng only Numpy for MNIST and CIFAR10
+# CNN from scratch usinng only Numpy for MNIST and CIFAR10
 This notebook implement a mini deep learning frame-work in the style of pytorch. Everything here from RELU, Batch Norm, Softmax, ...  are implemented from scratch, in an attemp to fully understand how Convolutional neuron netowrk works under the hood.
 
 <img src="images/yes-no.png" style="width:600px;height:300px;">
